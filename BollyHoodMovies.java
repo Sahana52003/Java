@@ -6,9 +6,9 @@ class BollyHoodMovies {
             "Gully Boy", "Chak De! India", "Kabir Singh"
         };
 
-        System.out.println("Bollywood Movies (using for loop):");
+        System.out.println("Bollywood Movies :");
         for (int i = 0; i < movieNames.length; i++) {
-            if (i < 10) {  // valid check
+            if (i < 10) { 
                 System.out.println("Movie Name: " + movieNames[i]);
                 continue;
             }
@@ -16,12 +16,11 @@ class BollyHoodMovies {
 
         System.out.println("======================");
 
-        System.out.println("Bollywood Movies (using foreach loop):");
+        System.out.println("Bollywood Movies :");
         for (String movie : movieNames) {
             System.out.println("Movie Name: " + movie);
         }
 
-        // Example: check if array has at least 6 movies
         if (movieNames.length >= 6) {
             System.out.println("======================");
             System.out.println("Yes, there are " + movieNames.length + " movies in the list.");
