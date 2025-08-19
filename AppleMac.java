@@ -31,5 +31,14 @@ System.out.println("The price of  brand is : " + price);
 System.out.println("The names of  brand is : " + names);
 System.out.println("The nameV of  brand is : " + nameV);
 System.out.println("The brand is  isvalid : " + isValid);
+ if (sizeName> price) {
+            System.out.println("The sizeName is  greater than price");
+        }else{
+		System.out.println("They are not equal to sizeName");
 }
+        if (isValid) {
+            System.out.println("The brand is valid ");
+
+}
+           }
 }
