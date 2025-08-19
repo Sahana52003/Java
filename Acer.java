@@ -45,8 +45,5 @@ System.out.println("The brand is  isQuality : " + isQuality);
         } else {
             System.out.println("The valueName is not equal to 1674.");
         }
-        if (names == 'J') {
-            System.out.println("The char names is J.");
-        }
     }
 }
