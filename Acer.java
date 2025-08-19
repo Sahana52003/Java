@@ -32,7 +32,7 @@ System.out.println("The price of  brand is : " + price);
 System.out.println("The names of  brand is : " + names);
 System.out.println("The nameV of  brand is : " + nameV);
 System.out.println("The brand is  isQuality : " + isQuality);
-          if (price > 1000000) {
+          if (price > 1000) {
             System.out.println("The brand is expensive.");
         }
         if (isQuality) {
