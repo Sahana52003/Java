@@ -16,10 +16,10 @@ float sizeName=876545677.33f;
 sizeName=32455455678.22f;
 double price=875457457.86;
 price=34542445.64;
-char names='V';
+char names='A';
 names='R';
 char nameV=55;
-nameV=35;
+nameV=65;
 Boolean isQuality=false;
 isQuality=true;
 System.out.println("The brand of Acer is : " + Brand);
@@ -32,5 +32,14 @@ System.out.println("The price of  brand is : " + price);
 System.out.println("The names of  brand is : " + names);
 System.out.println("The nameV of  brand is : " + nameV);
 System.out.println("The brand is  isQuality : " + isQuality);
+if (valueName > 100) {
+            System.out.println("The valueName is : " + valueName);
+        }
+if(names==nameV){
+System.out.println("names is equal to namesV : " + nameV);
+}else{
+System.out.println("Nmaes are not equal to nameV");
+
+}
 }
 }
