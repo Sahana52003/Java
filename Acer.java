@@ -32,5 +32,21 @@ System.out.println("The price of  brand is : " + price);
 System.out.println("The names of  brand is : " + names);
 System.out.println("The nameV of  brand is : " + nameV);
 System.out.println("The brand is  isQuality : " + isQuality);
-}
+          if (price > 1000000) {
+            System.out.println("The brand is expensive.");
+        }
+        if (isQuality) {
+            System.out.println("The brand is of good quality.");
+        } else {
+            System.out.println("The brand is not of good quality.");
+        }
+        if (valueName == 1674) {
+            System.out.println("The valueName is equal to 1674.");
+        } else {
+            System.out.println("The valueName is not equal to 1674.");
+        }
+        if (names == 'J') {
+            System.out.println("The char names is J.");
+        }
+    }
 }
