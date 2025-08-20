@@ -29,6 +29,18 @@ class EvenOrOdd {
                 case 1:
                     System.out.println("The number is Odd : " + n);
                     break;
+		case 2:
+                    System.out.println("The number is Even : " + n);
+                    break;
+		case 3:
+                    System.out.println("The number is Odd : " + n);
+                    break;
+		case 4:
+                    System.out.println("The number is Even : " + n);
+                    break;
+		case 5:
+                    System.out.println("The number is Odd : " + n);
+                    break;		
             }
         }
     }
