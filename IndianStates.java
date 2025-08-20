@@ -14,8 +14,15 @@ class IndianStates {
             System.out.println("IndianStates are : "+ states[i]);
         }
         System.out.println("=====================:");
-        for (String state : states) {
-            System.out.println("States are : " + state);
+	
+       for (String state : states) {
+            System.out.println("State: " + state);
         }
-    }
+        System.out.println("===================");
+          if (states.length < 7) {
+            System.out.println("There are more than 7 states in the list.");
+        } else {
+            System.out.println("There are 28 states in the list.");
+        }
+}
 }

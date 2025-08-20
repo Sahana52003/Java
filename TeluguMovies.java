@@ -6,13 +6,23 @@ class TeluguMovies {
             "Eega", "Pokiri", "Janatha Garage"};
         System.out.println("Telugu Movies :");
         for (int i = 0; i < movieNames.length; i++) {
-            System.out.println("Movie Name: " + movieNames[i]);
+           
+            if (i < 10) {
+                System.out.println("Popular Movie: " + movieNames[i]);
+            } else { 
+                System.out.println("Other Movie: ");
+            }
         }
-
         System.out.println("====================");
+	int index=0;
         for (String movie : movieNames) {
-            System.out.println("Movie Name: " + movie);
-        }
-    }
+           
+		 System.out.println("====================");
+		if(index<6){
+		System.out.println("Movie Name are : " + movie);
+		index++;
+    } 		
+		
+	}
 }
-
+}
