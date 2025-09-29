@@ -1,0 +1,36 @@
+class ABC
+{
+public static void main(String[] args)
+{
+System.out.println("CarRentalService");
+System.out.println(CarRentalService.branchID);
+System.out.println(CarRentalService.totalEmployees);
+System.out.println(CarRentalService.availableCars);
+System.out.println(CarRentalService.totalRentedCars);
+System.out.println(CarRentalService.ratePerDay);
+System.out.println(CarRentalService.serviceCode);
+System.out.println(CarRentalService.luxuryAvailable);
+System.out.println(CarRentalService.serviceName);
+System.out.println("================");
+System.out.println("ProductCatalog");
+System.out.println(ProductCatalog.catalogID);
+System.out.println(ProductCatalog.totalCategories);
+System.out.println(ProductCatalog.totalProducts);
+System.out.println(ProductCatalog.totalSales);
+System.out.println(ProductCatalog.avgDiscount);
+System.out.println(ProductCatalog.avgPrice);
+System.out.println(ProductCatalog.topProductCode);
+System.out.println(ProductCatalog.isActive);
+System.out.println(ProductCatalog.catalogName);
+System.out.println("================");
+System.out.println("CustomerFeedback");
+System.out.println(CustomerFeedback.feedbackID);
+System.out.println(CustomerFeedback.totalWords);
+System.out.println(CustomerFeedback.customerID);
+System.out.println(CustomerFeedback.orderID);
+System.out.println(CustomerFeedback.avgResponseTime);
+System.out.println(CustomerFeedback.purchaseAmount);
+System.out.println(CustomerFeedback.ratingChar);
+System.out.println(CustomerFeedback.isPositive);
+}
+}
