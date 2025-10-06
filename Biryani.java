@@ -13,6 +13,9 @@ System.out.println("The ingredients for Biryani are : " + ingredients[7]);
 System.out.println("The ingredients for Biryani are : " + ingredients[8]);
 System.out.println("The ingredients for Biryani are : " + ingredients[9]);
 System.out.println("The ingredients for Biryani are : " + ingredients.length);
+
+System.out.println("The ingredients for Biryani are : " + ingredients[0,3]);
+
 System.out.println("The ingredients for Biryani are : " +  Arrays.toString(ingredients));
 }
 }
