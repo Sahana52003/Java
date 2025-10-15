@@ -5,10 +5,16 @@ System.out.println("Plugged in");
    public static void cool() { 
 System.out.println("Cooling");
  }
-    void defrost() { 
+   public void defrost() { 
 System.out.println("Defrosting");
  }
-    void unplug() { 
+   public void unplug() { 
 System.out.println("Unplugged"); 
+}
+public void storeFood() { 
+System.out.println("Storing differnt kinds of food");
+ }
+public void alarm() { 
+System.out.println("set Alarm"); 
 }
 }

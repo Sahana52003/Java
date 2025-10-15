@@ -5,10 +5,16 @@ System.out.println("Player trains");
   public static void playMatch() { 
 System.out.println("Player plays match"); 
 }
-    void rest() {
+  public void rest() {
  System.out.println("Player rests"); 
 }
-    void travel() {
+   public void travel() {
  System.out.println("Player travels"); 
+}
+public void warmUp() { 
+System.out.println(" warming up"); 
+}
+public void meetCoach() { 
+System.out.println("meeting coach"); 
 }
 }

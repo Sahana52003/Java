@@ -5,10 +5,13 @@ class Planet {
    public static void rotate() {
  System.out.println("Planet rotates on axis"); 
 }
-    void atmosphere() {
+   public void atmosphere() {
  System.out.println("Planet has atmosphere"); 
 }
-    void gravity() { 
-System.out.println("Planet has gravity"); 
+  public void gravity() { 
+System.out.println("Planet has a gravity"); 
 }
+ public void orbit() { 
+System.out.println("Planet orbits sun");
+ }
 }

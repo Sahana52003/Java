@@ -5,10 +5,16 @@ System.out.println("Class started");
   public static void giveHomework() { 
 System.out.println("Homework assigned"); 
 }
-    void conductExam() {
+   public void conductExam() {
  System.out.println("Exam conducted");
  }
-    void declareResult() {
+   public void declareResult() {
  System.out.println("Result declared");
+ }
+public void conductSports() { 
+System.out.println("Sports conducted");
+ }
+    public void canteen() { 
+System.out.println("In Canteen having variety of snacks");
  }
 }

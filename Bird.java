@@ -5,10 +5,16 @@ System.out.println("Flying");
    public static void eat() {
  System.out.println("Eating"); 
 }
-    void sing() { 
+   public void sing() { 
 System.out.println("Singing"); 
 }
-    void sleep() {
+   public void sleep() {
  System.out.println("Sleeping"); 
+}
+	public void hunt() { 
+System.out.println("Hunting for food"); 
+}
+  public void buildNest() { 
+System.out.println("Building nest"); 
 }
 }

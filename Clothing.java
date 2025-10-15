@@ -5,10 +5,16 @@ System.out.println("Designing clothes");
    public static void stitch() { 
 System.out.println("Stitching clothes");
  }
-    void wash() { 
+   public void wash() { 
 System.out.println("Washing clothes"); 
 }
-    void iron() {
+  public void iron() {
  System.out.println("Ironing clothes"); 
+}
+public void pack() { 
+System.out.println("Packing clothes"); 
+}
+public void sell() { 
+System.out.println("Selling clothes"); 
 }
 }

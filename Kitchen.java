@@ -5,10 +5,16 @@ System.out.println("Preparing ingredients");
    public static void cook() {
  System.out.println("Cooking food");
  }
-    void serve() {
+ public void serve() {
  System.out.println("Serving food"); 
 }
-    void clean() { 
+  public void clean() { 
 System.out.println("Cleaning kitchen"); 
+}
+    public void takeOrders() { 
+System.out.println("Taking orders from customers");
+ }
+public void billing() { 
+System.out.println("customer bill"); 
 }
 }

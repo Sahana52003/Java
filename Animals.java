@@ -5,10 +5,16 @@ System.out.println("Eating...");
    public static void sleep() { 
 System.out.println("Sleeping..."); 
 }
-    void sound() { 
+ public void sound() { 
 System.out.println("Some sound..."); 
 }
-    void move() { 
+   public void move() { 
 System.out.println("Moving around...");
  }
+	public void drink(){
+	System.out.println("Drinking water.");	
+}
+ public void dig(){
+System.out.println("Digging the ground");
+}
 }

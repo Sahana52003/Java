@@ -5,11 +5,17 @@ class Game {
   public static void play() {
  System.out.println("Playing..."); 
 }
-    void pause() { 
+ public void pause() { 
 System.out.println("Is about to Paused"); 
 }
-    void end() { 
+ public void end() { 
 System.out.println("Game ended");
  }
+public void score() { 
+System.out.println("Score updated"); 
+}
+public void achievements() { 
+System.out.println("Total number of Achievements "); 
+}
 }
 

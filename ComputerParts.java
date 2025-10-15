@@ -5,10 +5,16 @@ System.out.println("Parts installed");
    public static void test() { 
 System.out.println("Parts tested"); 
 }
-    void replace() { 
+    public void replace() { 
 System.out.println("Parts replaced");
  }
-    void upgrade() { 
+ public void upgrade() { 
 System.out.println("Parts upgraded");
  }
+public void secure() { 
+System.out.println("May secured"); 
+}
+ public void troubleshoot() {
+ System.out.println("May get troubleshooted"); 
+}
 }

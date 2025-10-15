@@ -5,10 +5,16 @@ class Transport {
    public static void stop() { 
 System.out.println("Stopping"); 
 }
-    void accelerate() {
+ public void accelerate() {
  System.out.println("Accelerating"); 
 }
-    void brake() { 
+ public void brake() { 
 System.out.println("Braking"); 
+}
+public void refuel() {
+ System.out.println("Transport refueling"); 
+}
+public void turnLeft() { 
+System.out.println(" turning to left"); 
 }
 }

@@ -5,10 +5,16 @@ System.out.println("Animal fed");
    public static void groom() {
  System.out.println("Animal groomed"); 
 }
-    void vaccinate() {
+   public void vaccinate() {
  System.out.println("Animal vaccinated"); 
 }
-    void exercise() {
+ public void exercise() {
  System.out.println("exercised"); 
 }
+public void train() { 
+System.out.println("giving Training to the animal"); 
+}
+public void play() { 
+System.out.println("Playing with other animal");
+ }
 }

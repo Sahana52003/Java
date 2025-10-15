@@ -5,10 +5,16 @@ System.out.println("Picking up tool");
    public static void use() { 
 System.out.println("Using tool");
  }
-    void clean() { 
+ public void clean() { 
 System.out.println("Cleaning tool");
  }
-    void store() {
+  public void store() {
  System.out.println("Storing tool"); 
+}
+public void repair() { 
+System.out.println("Repaire it...."); 
+}
+public void label() { 
+System.out.println("Labeling!!!!!!"); 
 }
 }

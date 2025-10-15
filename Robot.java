@@ -5,10 +5,16 @@ System.out.println("Robot starts");
    public static void move() { 
 System.out.println("Robot moves");
  }
-    void lift() {
+   public void lift() {
  System.out.println("Robot lifts object");
  }
-    void stop() { 
+  public void stop() { 
 System.out.println("Robot stops"); 
 }
+public void repair() { 
+System.out.println("Sometimes may get repair"); 
+}
+public void scan() { 
+System.out.println(" scanning area or things");
+ }
 }

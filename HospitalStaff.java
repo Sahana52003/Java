@@ -5,10 +5,16 @@ class HospitalStaff {
    public static void giveMedicine() {
  System.out.println("Giving medicine"); 
 }
-    void maintainRecords() { 
+   public void maintainRecords() { 
 System.out.println("Maintaining records"); 
 }
-    void attendEmergency() { 
+ public void attendEmergency() { 
 System.out.println("Attending emergency"); 
+}
+public void updateReport() { 
+System.out.println("Updating patient report");
+ }
+public void appointment() { 
+System.out.println("Scheduling appointment to doctor"); 
 }
 }
