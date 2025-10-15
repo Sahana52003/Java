@@ -1,0 +1,3 @@
+class Shirt extends Clothing {
+
+}

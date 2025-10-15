@@ -1,0 +1,3 @@
+class CleaningRobot extends Robot {
+
+}

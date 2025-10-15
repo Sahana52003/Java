@@ -1,0 +1,3 @@
+class CreditAccount extends Account {
+
+}

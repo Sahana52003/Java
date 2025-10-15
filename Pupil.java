@@ -1,0 +1,3 @@
+class Pupil extends School {
+
+}

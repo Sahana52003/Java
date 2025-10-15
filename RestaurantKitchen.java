@@ -1,0 +1,3 @@
+class RestaurantKitchen extends Kitchen {
+
+}

@@ -1,0 +1,3 @@
+class Hammer extends Tool {
+
+}
