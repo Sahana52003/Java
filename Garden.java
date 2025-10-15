@@ -5,10 +5,16 @@ class Garden {
    public static void water() {
  System.out.println("Watering plants");
  }
-    void prune() { 
+   public void prune() { 
 System.out.println("Pruning plants"); 
 }
-    void harvest() { 
+ public void harvest() { 
 System.out.println("Harvesting fruits"); 
 }
+public void plantSeeds() { 
+System.out.println("have Different seeds");
+}
+public void decorate() { 
+System.out.println("Decorating the garden");
+ }
 }

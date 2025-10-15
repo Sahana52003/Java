@@ -5,10 +5,16 @@ System.out.println("Tuning instrument");
    public static void play() { 
 System.out.println("Playing instrument"); 
 }
-    void clean() {
+   public void clean() {
  System.out.println("Cleaning instrument"); 
 }
-    void store() { 
+   public void store() { 
 System.out.println("Storing instrument"); 
+}
+public void testSound() { 
+System.out.println("checking sound");
+ }
+public void decorate() { 
+System.out.println("Decorating it...."); 
 }
 }

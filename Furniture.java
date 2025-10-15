@@ -5,10 +5,16 @@ System.out.println("Furniture assembled");
    public static void move() { 
 System.out.println("Furniture moved");
  }
-    void clean() {
+   public void clean() {
  System.out.println("Furniture cleaned");
  }
-    void repair() {
+  public void repair() {
  System.out.println("Furniture repaired"); 
+}
+public void decorate() { 
+System.out.println("May be decorate with new things"); 
+}
+public void store() { 
+System.out.println("Can store different things into it"); 
 }
 }

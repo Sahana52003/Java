@@ -5,10 +5,16 @@ System.out.println("Device switched on");
    public static void switchOff() { 
 System.out.println("Device switched off");
  }
-    void charge() { 
+  public void charge() { 
 System.out.println("Device charging");
  }
-    void reset() {
+  public void reset() {
  System.out.println("Device reset"); 
+}
+  public void displayInfo() { 
+System.out.println("Displaying detailed information");
+ }
+public void adjustBrightness() { 
+System.out.println("screen brightness"); 
 }
 }

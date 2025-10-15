@@ -5,10 +5,16 @@ System.out.println("Machine starting");
    public static void stop() { 
 System.out.println(" stopping..........."); 
 }
-    void clean() { 
+   public void clean() { 
 System.out.println("Machine cleaning"); 
 }
-    void rinse() { 
+ public void rinse() { 
 System.out.println("Machine rinsing"); 
+}
+public void fillWater() { 
+System.out.println("Filling water"); 
+}
+    public void rotate() {
+ System.out.println("Rotating "); 
 }
 }

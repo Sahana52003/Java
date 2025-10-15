@@ -5,10 +5,16 @@ class Drinks {
    public static void addIce() {
         System.out.println("Adding ice...");
     }
-    void mix() {
-        System.out.println("Mixing drink...");
+public void mix() {
+     System.out.println("Mixing drink...");
     }
-    void serve() {
-        System.out.println("Serving drink...");
+  public void serve() {
+    System.out.println("Serving drink...");
     }
+public void label() { 
+System.out.println("Labeling the bottle");
+ }
+public void taste() { 
+System.out.println("Tasting drink"); 
+}
 }

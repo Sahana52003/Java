@@ -5,10 +5,16 @@ System.out.println("Food is cooked");
    public static void eat() { 
 System.out.println("Food is eaten"); 
 }
-    void store() { 
+ public void store() { 
 System.out.println("Food is stored"); 
 }
-    void serve() {
+  public void serve() {
  System.out.println("Food is served"); 
+}
+public void order() {
+ System.out.println("Ordering food");
+ }
+public void taste() { 
+System.out.println("Tasting food"); 
 }
 }

@@ -5,10 +5,17 @@ System.out.println("Account opened");
    public static void deposit() { 
 System.out.println("Money deposited"); 
 }
-    void withdraw() { 
+   public void withdraw() { 
 System.out.println("Money withdrawn");
  }
-    void close() { 
+  public void close() { 
 System.out.println("Account closed"); 
 }
+public void applyLoan() { 
+System.out.println("Applying for a loan"); 
 }
+public void updateDetails() { 
+System.out.println("Updating customer account details"); 
+}
+}
+
