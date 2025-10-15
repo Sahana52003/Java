@@ -1,0 +1,3 @@
+class kabaddiPlayer extends Sports {
+
+}

@@ -1,0 +1,3 @@
+class RoseGarden extends Garden {
+
+}

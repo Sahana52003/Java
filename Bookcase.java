@@ -1,0 +1,3 @@
+class Bookcase extends Furniture {
+
+}
