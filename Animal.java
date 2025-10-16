@@ -1,5 +1,5 @@
 class Animal {
-public Animal(String name,String sound) {
-System.out.println("The Animal name is " + name + " and makes sound " + sound );
-}
+  public void eat() {
+        System.out.println("Animal is eating food...");
+    }
 }
