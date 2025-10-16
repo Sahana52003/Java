@@ -17,4 +17,7 @@ System.out.println("Sometimes may get repair");
 public void scan() { 
 System.out.println(" scanning area or things");
  }
+public void charge(){
+System.out.println("Have charger robo or ...");
+}
 }

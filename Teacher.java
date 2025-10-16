@@ -17,4 +17,7 @@ System.out.println("Taking attendance");
 public void planExam() { 
 System.out.println("Planning to conduct exams");
  }
+public void records(){
+System.out.println("Making student records");
+}
 }

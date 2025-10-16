@@ -17,4 +17,7 @@ public void order() {
 public void taste() { 
 System.out.println("Tasting food"); 
 }
+public void deliver(){
+System.out.println("get to deliver");
+}
 }

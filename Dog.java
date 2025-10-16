@@ -7,4 +7,8 @@ System.out.println("Dog is drinking water");
 public void dig() { 
 System.out.println("Dog digs the ground"); 
 }
+@Override
+public void grow(){
+System.out.println("Grown up");
+}
     }

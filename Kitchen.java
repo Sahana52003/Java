@@ -17,4 +17,7 @@ System.out.println("Taking orders from customers");
 public void billing() { 
 System.out.println("customer bill"); 
 }
+public void washDishes(){
+System.out.println("Washing ");
+}
 }

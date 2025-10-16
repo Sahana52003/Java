@@ -17,4 +17,7 @@ public void refuel() {
 public void turnLeft() { 
 System.out.println(" turning to left"); 
 }
+public void park(){
+System.out.println("Having park area");
+}
 }

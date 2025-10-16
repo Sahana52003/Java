@@ -5,5 +5,10 @@ public void repair() {
 }
 @Override 
 public void label() { 
-System.out.println("Get labeled"); }
+System.out.println("Get labeled"); 
+}
+@Override
+public void test(){
+System.out.println("After that ready to test the hammer");
+}
 }

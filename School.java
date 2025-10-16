@@ -17,4 +17,7 @@ System.out.println("Sports conducted");
     public void canteen() { 
 System.out.println("In Canteen having variety of snacks");
  }
+public void conductLab(){
+System.out.println("Lab experients");
+}
 }

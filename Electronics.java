@@ -17,4 +17,7 @@ System.out.println("Displaying detailed information");
 public void adjustBrightness() { 
 System.out.println("screen brightness"); 
 }
+public void playMusic(){
+System.out.println("Having music website");
+}
 }

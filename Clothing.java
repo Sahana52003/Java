@@ -17,4 +17,7 @@ System.out.println("Packing clothes");
 public void sell() { 
 System.out.println("Selling clothes"); 
 }
+public void dye(){
+System.out.println("Ready to dye it");
+}
 }

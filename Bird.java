@@ -17,4 +17,7 @@ System.out.println("Hunting for food");
   public void buildNest() { 
 System.out.println("Building nest"); 
 }
+public void layEggs(){
+System.out.println("laying eggs in nest");
+}
 }

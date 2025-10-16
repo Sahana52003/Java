@@ -7,5 +7,8 @@ System.out.println(" having a different sports names to participate");
 public void canteen() { 
 System.out.println("Going to canteen"); 
 }
-
+@Override
+public void conductLab(){
+System.out.println("Having Lab exams");
+}
 }

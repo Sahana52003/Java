@@ -7,4 +7,8 @@ System.out.println(" taking food orders");
 public void billing() { 
 System.out.println("Bill for customer"); 
 }
+@Override
+public void washDishes(){
+System.out.println("ready to wash plates");
+}
 }

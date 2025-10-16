@@ -8,4 +8,8 @@ public void save()
 { 
 System.out.println("Saving the circle");
  }
+@Override
+public void copy(){
+System.out.println("copy to other one ");
+}
 }

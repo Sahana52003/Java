@@ -7,4 +7,8 @@ System.out.println(" seeds ............");
 public void decorate() {
  System.out.println("Decorating rose garden"); 
 }
+@Override
+public void grow(){
+System.out.println("growing different plants ");
+}
 }

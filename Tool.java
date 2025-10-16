@@ -17,4 +17,7 @@ System.out.println("Repaire it....");
 public void label() { 
 System.out.println("Labeling!!!!!!"); 
 }
+public void test(){
+System.out.println("Trail it");
+}
 }

@@ -17,4 +17,7 @@ System.out.println("checking sound");
 public void decorate() { 
 System.out.println("Decorating it...."); 
 }
+public void adjustStrings(){
+System.out.println("Changing strings to neww ");
+}
 }

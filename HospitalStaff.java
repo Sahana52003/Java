@@ -17,4 +17,7 @@ System.out.println("Updating patient report");
 public void appointment() { 
 System.out.println("Scheduling appointment to doctor"); 
 }
+public void patientComfort(){
+System.out.println("  patients are comfortable");
+}
 }

@@ -7,4 +7,8 @@ System.out.println("Tablet displaying system information");
 public void adjustBrightness() { 
 System.out.println("adjusting screen brightness automatically"); 
 }
+@Override
+public void playMusic(){
+System.out.println("Palying Music");
+}
 }

@@ -17,4 +17,7 @@ System.out.println("Changing shapes");
 public void resize() { 
 System.out.println("Resizing shape");
  }
+public void copy(){
+System.out.println("copying the same one");
+}
 }

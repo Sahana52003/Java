@@ -7,4 +7,8 @@ System.out.println("Kabaddi player warming up before match");
 public void meetCoach() { 
 System.out.println("Kabaddi player discussing tactics with coach"); 
 }
+@Override
+public void practice(){
+System.out.println("Practicing and then try some new skills");
+}
 }

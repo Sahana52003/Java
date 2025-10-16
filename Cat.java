@@ -7,4 +7,8 @@ System.out.println("Playing with cat");
 public void train() { 
 System.out.println("Training a cat"); 
 }
+@Override
+public void dietPlan(){
+System.out.println("Weekly plan");
+}
 }

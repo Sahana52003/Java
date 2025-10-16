@@ -17,4 +17,7 @@ System.out.println("Filling water");
     public void rotate() {
  System.out.println("Rotating "); 
 }
+public void detergent(){
+System.out.println("using detergent");
+}
 }

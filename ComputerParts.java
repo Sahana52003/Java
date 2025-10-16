@@ -17,4 +17,7 @@ System.out.println("May secured");
  public void troubleshoot() {
  System.out.println("May get troubleshooted"); 
 }
+public void activiy(){
+System.out.println("related activity");
+}
 }
