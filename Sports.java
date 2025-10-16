@@ -17,4 +17,7 @@ System.out.println(" warming up");
 public void meetCoach() { 
 System.out.println("meeting coach"); 
 }
+public void practice(){
+System.out.println("Practicing");
+}
 }

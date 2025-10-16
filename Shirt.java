@@ -7,4 +7,8 @@ System.out.println("Selling shirts to customers");
 public void pack() { 
 System.out.println("Packing shirts for delivery !!!!!!"); 
 }
+@Override
+public void dye(){
+System.out.println("been dyeing the shirt");
+}
 }

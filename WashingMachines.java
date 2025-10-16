@@ -7,4 +7,8 @@ System.out.println("Washing machine filling water");
 public void rotate() { 
 System.out.println("Washing machine has been started to rotate"); 
 }
+@Override
+public void detergent(){
+System.out.println("using detergent to washing machine");
+}
 }

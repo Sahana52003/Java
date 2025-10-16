@@ -7,4 +7,8 @@ System.out.println("Food is kept in refrigerator");
 public void alarm() {
  System.out.println("Refrigerator alarm activated"); 
 }
+@Override
+public void temperatureCheck(){
+System.out.println("Check temp again is > or <C");
+}
 }

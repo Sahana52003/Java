@@ -7,4 +7,8 @@ System.out.println("MathTeacher planning to give math exam");
 public void attendance() {
  System.out.println("MathTeacher taking student attendance");
 }
+@Override
+public void records(){
+System.out.println("Update student detils");
+}
 }

@@ -17,4 +17,7 @@ System.out.println("have Different seeds");
 public void decorate() { 
 System.out.println("Decorating the garden");
  }
+public void grow(){
+System.out.println("Growing plants ");
+}
 }

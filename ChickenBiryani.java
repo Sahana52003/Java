@@ -7,4 +7,8 @@ public void order() {
 public void taste() { 
 System.out.println("Tasting spicest biryani"); 
 }
+@Override
+public void deliver(){
+System.out.println("Deliver food to customer");
+}
 }

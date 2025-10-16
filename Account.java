@@ -17,5 +17,8 @@ System.out.println("Applying for a loan");
 public void updateDetails() { 
 System.out.println("Updating customer account details"); 
 }
+public void interest(){
+System.out.println("Having interest");
+}
 }
 

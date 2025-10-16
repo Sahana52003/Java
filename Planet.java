@@ -14,4 +14,11 @@ System.out.println("Planet has a gravity");
  public void orbit() { 
 System.out.println("Planet orbits sun");
  }
+public void temperature() { 
+       System.out.println("Planet has a temperature"); 
+    }
+public void magneticField()
+{
+System.out.println("the magnetic field");
+}
 }

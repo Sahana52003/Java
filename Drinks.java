@@ -17,4 +17,8 @@ System.out.println("Labeling the bottle");
 public void taste() { 
 System.out.println("Tasting drink"); 
 }
+public void close()
+{
+System.out.println("Have to close bottle");
+}
 }

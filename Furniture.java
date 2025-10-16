@@ -17,4 +17,7 @@ System.out.println("May be decorate with new things");
 public void store() { 
 System.out.println("Can store different things into it"); 
 }
+public void paint(){
+System.out.println("Painting the Furniture");
+}
 }

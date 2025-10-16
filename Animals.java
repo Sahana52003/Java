@@ -17,4 +17,7 @@ System.out.println("Moving around...");
  public void dig(){
 System.out.println("Digging the ground");
 }
+public void grow(){
+System.out.println("Growing");
+}
 }

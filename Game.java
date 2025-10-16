@@ -17,5 +17,7 @@ System.out.println("Score updated");
 public void achievements() { 
 System.out.println("Total number of Achievements "); 
 }
+public void foul(){
+System.out.println("Ready to foul iin first attempt");
 }
-
+}

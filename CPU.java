@@ -7,4 +7,8 @@ System.out.println("CPU secured");
 public void troubleshoot() { 
 System.out.println("getting troubleshooted");
  }
+@Override
+public void activiy(){
+System.out.println("Having anu related activites");
+}
 }

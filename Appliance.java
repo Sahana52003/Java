@@ -17,4 +17,7 @@ System.out.println("Storing differnt kinds of food");
 public void alarm() { 
 System.out.println("set Alarm"); 
 }
+public void temperatureCheck(){
+System.out.println("Check temp again");
+}
 }
