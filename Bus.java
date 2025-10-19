@@ -15,3 +15,4 @@ bus.openDoors();
 System.out.println(bus instanceof Vehicle);
 }
 } 
+
