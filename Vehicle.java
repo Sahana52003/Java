@@ -1,5 +1,6 @@
-class Vehicle {
-    void startEngine() {
-        System.out.println("Vehicle engine is starting...");
-    }
+class Vehicle
+{
+  public void getStart(){
+System.out.println("ready to start vehicle");
+}
 }
