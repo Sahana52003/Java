@@ -1,23 +1,15 @@
-class Teacher {
-   public static void prepareLesson() { 
-System.out.println("Preparing lesson"); }
-
-   public static void teach() { 
-System.out.println("Teaching class"); 
+class Teacher extends Person {
+    public void teach() { 
+System.out.println("Teaching concepts for students"); 
 }
-   public void grade() {
- System.out.println("Grading tests"); 
-}
-   public void attendMeeting() { 
-System.out.println("Attending staff meeting");
- }
-public void attendance() { 
-System.out.println("Taking attendance"); 
-}
-public void planExam() { 
-System.out.println("Planning to conduct exams");
- }
-public void records(){
-System.out.println("Making student records");
-}
+ public static void main(String[] args) {
+        Person p = new Student();
+        p.speak();
+	Student stud=(Student)p;
+	stud.study();
+	Person person=new Teacher();
+	person.speak();
+        Teacher teacher=(Teacher)person;
+	teacher.teach();
+    }
 }
