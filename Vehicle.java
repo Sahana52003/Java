@@ -1,6 +1,9 @@
 class Vehicle
-{
-  public void getStart(){
-System.out.println("ready to start vehicle");
+ {
+ public void start() { 
+System.out.println("Get ready to start");
+ }
+ public void stop() { 
+System.out.println("Reached Dest..."); 
 }
 }
