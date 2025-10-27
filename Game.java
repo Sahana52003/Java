@@ -1,23 +1,9 @@
-class Game {
-    public static void start() {
- System.out.println("Game is started");
- }
-  public static void play() {
- System.out.println("Playing..."); 
+class Game 
+{
+public void login() {
+System.out.println("login through e-mail");
 }
- public void pause() { 
-System.out.println("Is about to Paused"); 
-}
- public void end() { 
-System.out.println("Game ended");
- }
-public void score() { 
-System.out.println("Score updated"); 
-}
-public void achievements() { 
-System.out.println("Total number of Achievements "); 
-}
-public void foul(){
-System.out.println("Ready to foul iin first attempt");
+public void start(){
+System.out.println("Start the game");
 }
 }
