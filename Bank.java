@@ -1,12 +1,13 @@
-class Bank{
-			static String bankName="SBI";
-			static int balanceAmt=1000;
-			static char x=66;
-			static boolean isAvaliable=true;
-			public static void main(String[] args){
-			System.out.println("The BANK name is : " + bankName);
-			System.out.println("The balance Amount is : " + balanceAmt);
-			System.out.println("Their number : " + x);
-			System.out.println("Is Available : " + isAvaliable);
+class Bank {
+public Bank() {
+this("SBI");
+System.out.println("No args constructor");
+}
+public Bank(String branchName) {
+this(432345678l,5); 
+System.out.println("The branch name "+ branchName);
+}
+public Bank(long phoneNumber, double interest) {
+System.out.println("and its phone number"+phoneNumber+"giving a interest " + interest);
 }
 }

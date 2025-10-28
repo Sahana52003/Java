@@ -1,9 +1,9 @@
-class Rose extends Flower {
-public Rose() {
+class Diwali extends Festival {
+public Diwali() {
 super();
 System.out.println("Default constructor");
 }
 public static void main(String[] args) {
-Rose rose=new Rose();
+Diwali diw=new Diwali();
 }
 }
