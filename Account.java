@@ -1,24 +1,9 @@
-class Account {
-   public static void open() { 
-System.out.println("Account opened"); 
+class Account extends Bank {
+public Account() {
+super();
+System.out.println("Account: Default constructor");
 }
-   public static void deposit() { 
-System.out.println("Money deposited"); 
-}
-   public void withdraw() { 
-System.out.println("Money withdrawn");
- }
-  public void close() { 
-System.out.println("Account closed"); 
-}
-public void applyLoan() { 
-System.out.println("Applying for a loan"); 
-}
-public void updateDetails() { 
-System.out.println("Updating customer account details"); 
-}
-public void interest(){
-System.out.println("Having interest");
+public static void main(String[] args) {
+Account acc=new Account();
 }
 }
-

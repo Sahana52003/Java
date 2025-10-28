@@ -1,9 +1,9 @@
-class Rose extends Flower {
-public Rose() {
+class Bicycle extends Vehicle {
+public Bicycle() {
 super();
 System.out.println("Default constructor");
 }
 public static void main(String[] args) {
-Rose rose=new Rose();
+Bicycle bc=new Bicycle();
 }
 }

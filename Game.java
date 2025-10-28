@@ -1,9 +1,13 @@
-class Game 
-{
-public void login() {
-System.out.println("login through e-mail");
+class Game {
+public Game() {
+this(true);
+System.out.println("No args constructor");
 }
-public void start(){
-System.out.println("Start the game");
+public Game(boolean isOnline) {
+this("Ludo",4);
+System.out.println("is Game avaliable:"+isOnline);
 }
+public Game(String name, int players) {
+System.out.println("Game name "+ name + "number of players"+players);
+    }
 }
