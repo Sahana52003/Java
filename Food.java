@@ -1,23 +1,10 @@
 class Food {
-   public static void cook() { 
-System.out.println("Food is cooked");
+String name = "Vegetarian";
+int calories = 200;
+public void prepare() { 
+System.out.println("Preparing a delicious food"); 
+}
+public void serve() { 
+System.out.println("Dish is served to the custoer");
  }
-   public static void eat() { 
-System.out.println("Food is eaten"); 
-}
- public void store() { 
-System.out.println("Food is stored"); 
-}
-  public void serve() {
- System.out.println("Food is served"); 
-}
-public void order() {
- System.out.println("Ordering food");
- }
-public void taste() { 
-System.out.println("Tasting food"); 
-}
-public void deliver(){
-System.out.println("get to deliver");
-}
 }

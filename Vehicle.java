@@ -1,13 +1,10 @@
 class Vehicle {
-public Vehicle() {
-this(11.3);
-System.out.println("No argsconstructor");
+String brand = "Swift";
+int wheels = 4;
+public void start() {
+System.out.println("vehicle is starting.");
 }
-public Vehicle(double speed) {
-this("Cycle",2);
-System.out.println("Travelling at the speed : " + speed);
+public void stop() {
+System.out.println("destination");
 }
-public Vehicle(String name, int wheels) {
-System.out.println("Name of vehicle :"+name +"having wheels"+wheels);
-    }
 }
