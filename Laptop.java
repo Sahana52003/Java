@@ -1,16 +1,21 @@
-class Laptop extends Gadget 
-{
-public void connectWifi(){
-System.out.println("Can connect wifi through other device and can wacth video or others..");
+class Laptop extends Device {
+String brand = "Dell";
+double price = 90000.99;
+public void boot() {
+ System.out.println("laptop is booting up"+brand+"with the price of "+price); 
 }
-public static void main(String[] args){
-Gadget gadget=new Smartphone();
-gadget.restart();
-Smartphone phone=(Smartphone)gadget;
-phone.makeCall();
-Gadget gget=new Laptop();
-Laptop laptop=(Laptop)gget;
-laptop.connectWifi();
-System.out.println(gget instanceof Smartphone);
+public void restart() { 
+super.powerOff();
+System.out.println("laptop is restarting"+super.brand+"have a total warranty"+super.warranty); 
+}
+public static void main(String[] args) {
+Device dev=new Device();
+dev.powerOn();
+dev.powerOff();
+Laptop l = new Laptop();
+l.boot();
+l.restart();
+Device device=new Laptop();
+System.out.println("Brand name "+device.brand);
 }
 }

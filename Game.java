@@ -1,13 +1,10 @@
 class Game {
-public Game() {
-this(true);
-System.out.println("No args constructor");
+String type = "Outdoor";
+int players = 11;
+public void start() { 
+System.out.println("Game has been started"); 
 }
-public Game(boolean isOnline) {
-this("Ludo",4);
-System.out.println("is Game avaliable:"+isOnline);
+public void end() { 
+System.out.println("Time to end the game"); 
 }
-public Game(String name, int players) {
-System.out.println("Game name "+ name + "number of players"+players);
-    }
 }
