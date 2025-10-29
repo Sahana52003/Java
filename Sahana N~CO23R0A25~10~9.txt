@@ -1,0 +1,248 @@
+1. What are the different types of variables in Java and difference?
+	1.Local Variable
+	2.Static Variable
+	3.Non-static Variable
+	4.Parameterized Variable
+	
+	
+	1.Local Variable:
+		1.are declared or initialized in the method only.
+		2.Scope:Only within the method.
+		3.It doesn't provide default values.must be initialized
+		
+
+	2.Static Variable:
+		1.are declared or initialized in the level of class.
+		2.Scope:declared in level of class , can be access anywhere.
+		3.It will provides a default values.
+
+	3.Non-static Variable:
+		1.are declared in a class without static ,where each object has its own copy.
+		2.Scope:are declared in class, but access using an object reference.
+		3.It will provides a default values.
+		4.It is also called as Instance variable.
+	4.Parameterized Variable:
+		1.are passed into the method as an arguments.
+		2.No default values.
+		3.Used in: Methods,constructor.
+
+
+2. What is the default value of an instance variable of all type?
+	int=0
+	byte=0
+	short=0
+	long=0
+	float=0.0
+	double=0.0
+	boolean=false
+	char=blankspace
+	String=null
+
+3. Can a local variable have a default value in java?
+	No,it doesn't have a default values, it must be initialized .
+
+
+
+4. How do you access a static variable in Java?
+	By using a ClassName.variableName.
+	or can access directly in the same class. 
+
+
+5. Can we access a non-static variable inside a static method?Why or why not?
+		No,we can't access a non-static variable inside a static method.
+	Because,static method belongs to the class,where non-static variable belongs to object .
+
+
+6. What is the difference between method overloading and constructor overloading?
+		Constructor overloading:
+			1.have a same constructor name with different parameters.
+			2.Doesn't have return type.
+			3.Conostructor name must be same as class name.
+
+		Method Overloading:
+			1.Have a same method names with different parameters.
+			2.Have return type.
+			3.It can have any method name.
+
+
+7. Can we overload a method by changing only its return type?
+	No, we cannot overload a method by changing the return type.
+
+
+
+8. What does the this keyword refer to inside a method?
+		this keyword refers to the current object of the class.
+
+
+9. What is the difference between a static method and an instance method?
+		Static Method:
+			1.Declared using a static keyword in the level of class.
+			2.Can't access instance variable.
+			3.Can access from anywhere.
+		Instance method:
+			1.Doesn't have static keyword.
+			2.are declared in a class without static ,where each object has its own copy.
+			3.Can access static variables.
+
+ 
+10. Can a static method access instance variables?Explain.
+		No,because static methods doen't have object where the instance variable needs an object to access.
+
+
+11. What is a constructor,variable,method?
+		Constructor:
+			is a special type of method where it doesm't have return type and have same name as class name.
+		variable:
+			are the reference type ,to store the memory address of the value.
+
+		Method:
+			is a block of code,that perform specific task.
+
+12. Can a constructor be overloaded in Java?
+	Yes,Constructor can be overloaded by changing / giving different parameters.
+
+
+13. What is the differenc between a constructor and a method?
+		Constructor:
+			1.is a special type of method where it doesm't have return type 
+			2. Constructor name and class name are same.
+			3.no return type.
+			4.Have many constructor ,but have different parameters.
+		Method:
+			1.is a block of code,that perform specific task.
+			2.has return type.
+			3.may or may not be same as class name.
+			4.can have many methods,but must not have same parameters.
+
+
+14. What happens if you don't define any constructor in your class?
+		Java will provides a default constructor.
+
+
+15. Can we call one constructor from another constructor in the same class? How
+		Yes,can call one constructor from another constructor in the same class by using a this.
+
+
+16. Can a constructor return any value?
+		No,Constructor doesn't have any return values and void.
+
+
+17. Program to initialize the instance variable using this keyword?
+	class Student{
+		int id;
+		String name;
+	Student(int id,String name){
+		this.id=id;
+		this.name=name;
+		}
+	public static void main(String[] args){
+		Student st=new Student(77,"V");
+}
+}
+		
+18. Program to print default value of static variable?
+		class Test{
+		static int price;
+		static byte size;
+		static short num;
+		static long number;
+		static float value;
+		static double val;
+		static Boolean isAvailable;
+		static char code;
+		static String name;
+	public static void main(String[] args){
+		System.out.println(price);
+		System.out.println(size);
+		System.out.println(num);
+		System.out.println(number);
+		System.out.println(value);
+		System.out.println(val);
+		System.out.println(isAvaliable);
+		System.out.println(code);
+		System.out.println(name);
+}
+}
+
+
+19. Program to print default value of instance variable?
+		class Test{
+		 int price;
+		 byte size;
+		 short num;
+		 long number;
+		 float value;
+		 double val;
+		 Boolean isAvailable;
+		 char code;
+		 String name;
+	public static void main(String[] args){
+		Test tt=new test();
+		System.out.println(tt.price);
+		System.out.println(tt.size);
+		System.out.println(tt.num);
+		System.out.println(tt.number);
+		System.out.println(tt.value);
+		System.out.println(tt.val);
+		System.out.println(tt.isAvaliable);
+		System.out.println(tt.code);
+		System.out.println(tt.name);
+}
+}
+
+20. Program for method overloading?
+	class Calculator {
+    void add(int a, int b) {
+        System.out.println("Sum: " + (a + b));
+    }
+    void add(double a, double b) {
+        System.out.println("Sum: " + (a + b));
+    }
+    void add(int a, int b, int c) {
+        System.out.println("Sum: " + (a + b + c));
+    }
+    public static void main(String[] args) {
+        Calculator c = new Calculator();
+        c.add(5, 10);
+        c.add(2.5, 3.5);
+        c.add(1, 2, 3);
+    }
+}
+
+21. Program for method Chaining?
+    class Student {
+    public static void toCollege() {
+        System.out.println("Student went to college");
+	toHome();
+    }
+
+    public static void toHome() {
+        System.out.println("After college,went to home);
+    }
+
+    public static void main(String[] args) {
+	toCollege();
+}
+}
+
+
+    22. Program for Constructor Overloading? 
+    class Student {
+    public Student() {
+        System.out.println("Default constructor");
+    }
+
+    public Student(int id) {
+        System.out.println("Student ID: " + id);
+    }
+
+   public Student(int id, String name) {
+        System.out.println("StudentID and Name: " + id  + name);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        Student s2 = new Student(45);
+        Student s3 = new Student(23, "JK");
+    }
+}
