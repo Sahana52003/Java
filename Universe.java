@@ -1,5 +1,9 @@
+
 class Universe
  {
+
+class Universe {
+
     public static void main(String[] args) {
         String[] planets = {"Mercury", "Venus", "Earth", "Mars", "Jupiter"};
         boolean[] isAvailable = {true, false, true, true, false};
@@ -10,10 +14,17 @@ class Universe
             i++;
         }
         System.out.println("--------------------------------");
+
        int j=0;
         do {
             System.out.println("The index : " + j + " and Universe : " + isAvailable[j]);
            j++;
+
+        int j = 0;
+        do {
+            System.out.println("The index : " + j + " and Universe : " + isAvailable[j]);
+            j++;
+
         } while (j<isAvailable.length);
     }
 }

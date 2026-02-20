@@ -31,6 +31,7 @@ System.out.println("The price of  brand is : " + price);
 System.out.println("The names of  brand is : " + names);
 System.out.println("The nameV of  brand is : " + nameV);
 System.out.println("The brand is  isvalid : " + isValid);
+
 if(isValid){
 System.out.println("Yes,The Brand is valid ");
 }else{
@@ -41,5 +42,6 @@ System.out.println("The Brand Name is Lenovo ");
 }else{
 System.out.println("The Brand Name is Not Lenovo, It is HP");
 }
+
 }
 }

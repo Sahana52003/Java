@@ -31,6 +31,7 @@ System.out.println("The price of  brand is : " + price);
 System.out.println("The names of  brand is : " + names);
 System.out.println("The nameV of  brand is : " + nameV);
 System.out.println("The brand is  isvalid : " + isValid);
+
         if (size1>price) {
             System.out.println("The MSI is greater than price value");
         } else {
@@ -42,5 +43,6 @@ System.out.println("The brand is  isvalid : " + isValid);
         } else {
             System.out.println("The sizeV has a different value.");
         }
+
 }
 }

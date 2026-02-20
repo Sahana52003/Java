@@ -1,5 +1,10 @@
 class Animal {
-public Animal(String name,String sound) {
-System.out.println("The Animal name is " + name + " and makes sound " + sound );
-}
+String type="Wild Animal";
+int legs = 4;
+public void eat() {
+System.out.println("Animal is eating food.");
+    }
+public void sleep() {
+System.out.println("Animal is sleeping peacefully.");
+    }
 }

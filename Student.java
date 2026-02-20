@@ -1,11 +1,21 @@
-class Student
-{
-public static void main(String[] args)
-{
-System.out.println("Name :Sahana N");
-System.out.println("email:sn68698@gmail.com");
-System.out.println("Address :Kolar");
-System.out.println("College Name :Sri Siddhartha Institute of Technology");
-System.out.println("College Address : Tumkur");
+class Student extends School {
+String name = "Alice";
+double marks = 95.5;
+public void study() { 
+super.open();
+System.out.println("Studying hard to get"+name+"To get a good marks"+marks);
+ }
+public void exam() { 
+System.out.println("writing exam "+super.students+"Had scored"+marks); 
+}
+public static void main(String[] args) {
+School sch=new School();
+sch.open();
+sch.close();
+Student s = new Student();
+s.study();
+s.exam();
+School school=new Student();
+System.out.println("Name of the school"+school.name);
 }
 }

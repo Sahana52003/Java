@@ -1,25 +1,21 @@
-class College 
-{
-public static void firstYear() {
-System.out.println("Joined college");
+class College extends University {
+String name = "Christ College";
+double rating = 4.8;
+public void teach() { 
+System.out.println("Teachindg a concept to the students"+super.name+name); 
 }
-public static void secondYear() {
-System.out.println("Learned few core subjects and have a final exams");
-}
-public static void thirdYear() {
-System.out.println("Learning few programs and completed a mini projects");
-}
-public static void fourthYear() {
-System.out.println("Preparing for jobs and also Completed a final major projects");
-}
-public static void completedEducation() {
-System.out.println("Happy to completed me BE");
+public void hostEvent() { 
+System.out.println("Organised an event"+rating); 
 }
 public static void main(String[] args) {
-firstYear();
-secondYear();
-thirdYear();
-fourthYear();
-completedEducation();
-    }
+University uni=new University();
+uni.operate();
+uni.research();
+System.out.println("Number of faculties"+uni.faculties);
+College c = new College();
+c.teach();
+c.hostEvent();
+University unsity=new College();
+System.out.println("Name of the University"+unsity.name);
+}
 }

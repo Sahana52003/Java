@@ -7,10 +7,17 @@ class TeluguMovies {
         System.out.println("Telugu Movies :");
         for (int i = 0; i < movieNames.length; i++) {
            
+
             if (i < 10) {
                 System.out.println("Popular Movie: " + movieNames[i]);
             } else { 
                 System.out.println("Other Movie: ");
+
+            if (i < 5) {
+                System.out.println("Popular Movie: " + movieNames[i]);
+            } else { 
+                System.out.println("Other Movie: " + movieNames[i]);
+
             }
         }
         System.out.println("====================");

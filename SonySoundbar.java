@@ -1,9 +1,15 @@
 class SonySoundbar 
 {
 public static String powerOn(int wattage, String modelName, boolean isOn, float weight, short voltage) {
+
 //return "Soundbar : " + modelName + " Power: " + wattage + " Is ON: " + isOn + " Weight: " + weight + "Voltage: " + voltage ;
         if (isOn==true) {
             
+
+//return "Soundbar " + modelName + " Power: " + wattage + " Is ON: " + isOn + " Weight: " + //weight + "Voltage: " + voltage ;
+        if (!isOn) {
+            isOn = true;
+
             return "Soundbar " + modelName + " Power: " + wattage + "Weight: " + weight + "Voltage: " + voltage;
         } else {
             return "Soundbar " + modelName + " is already ON " + isOn;
